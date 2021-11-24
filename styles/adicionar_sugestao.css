@@ -20,7 +20,7 @@ main {
     align-items: center;
 }
 
-.icone_esquerda{
+.icone_esquerda {
     position: absolute;
     left: 2rem;
     filter: brightness(100);
@@ -33,6 +33,7 @@ main {
     margin: 1rem;
     background-color: #53CF93;
 }
+
 .nome_da_sugestao {
     border: 1px solid #000;
     border-radius: 255px;
@@ -40,16 +41,16 @@ main {
     margin: 1rem;
     background-color: #53CF93;
 }
+
 .tipo_da_atividade {
     border: 1px solid #000;
     border-radius: 255px;
     padding: 1rem;
     margin: 1rem;
     background-color: #53CF93;
-    
 }
 
-.enviar{
+.enviar {
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -62,11 +63,11 @@ main {
     background-color: #204F38;
 }
 
-.enviar > a {
+.enviar>a {
     color: #FFFFFF;
 }
 
-.enviar > img {
+.enviar>img {
     filter: brightness(100);
     margin-right: 1rem;
 }
@@ -74,6 +75,5 @@ main {
 @media screen and (max-width: 2000px) {
     .enviar {
         bottom: 2rem;
-
     }
 }

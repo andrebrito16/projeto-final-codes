@@ -1,8 +1,8 @@
 body {
-  background-color: #DBDBDB;
+    background-color: #DBDBDB;
 }
 
-header{
+header {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -13,26 +13,26 @@ header{
     color: #FFFFFF;
 }
 
-.icone_esquerda{
+.icone_esquerda {
     display: flex;
     flex-direction: row;
     position: absolute;
     left: 2rem;
     filter: brightness(100);
-  }
+}
 
-  nav {
+nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
 
-  .materias {
+.materias {
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .materia{
+.materia {
     display: flex;
     flex-direction: row;
     padding: 1rem;
@@ -41,10 +41,10 @@ header{
     border: 1px solid #000;
     border-radius: 255px;
     background-color: #53CF93;
-  }
+}
 
-  .materia > img {
+.materia>img {
     display: flex;
     flex-direction: column;
     margin-right: 0.4rem;
-  }
+}
