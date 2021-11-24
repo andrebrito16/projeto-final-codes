@@ -1,0 +1,69 @@
+body {
+    background-color: #DBDBDB;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1.4rem;
+    align-items: center;
+    background-color: #204F38;
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icone_esquerda{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 2rem;
+    filter: brightness(100);
+  }
+
+.nome_aluno {
+    border: 1px solid #000;
+    border-radius: 255px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #53CF93;
+}
+.atividade {
+    border: 1px solid #000;
+    border-radius: 255px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #53CF93;
+}
+.turma {
+    border: 1px solid #000;
+    border-radius: 255px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #53CF93;
+}
+.plataforma {
+    border: 1px solid #000;
+    border-radius: 255px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #53CF93;
+}
+.marcar_atividade {
+    border: 1px solid #000;
+    border-radius: 255px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #204F38;
+}
+
+.marcar_atividade > a {
+    color: #FFFFFF;
+}

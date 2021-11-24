@@ -1,0 +1,100 @@
+body {
+  background-color: #DBDBDB;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1.4rem;
+    align-items: center;
+    background-color: #204F38;
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+}
+
+.icone_esquerda{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 2rem;
+  filter: brightness(100);
+}
+
+.icone{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: absolute;
+    left: 2rem;
+  }
+
+nav {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+li {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+border: 1px solid #000;
+border-radius: 255px;
+width: 10rem;
+height: 2rem;
+margin-bottom: 1.2rem;
+background-color: #53CF93;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  }
+
+h3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .materias {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .materia{
+      display: flex;
+      flex-direction: row;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      align-items: center;
+      border: 1px solid #000;
+      border-radius: 255px;
+      height: 2rem;
+      background-color: #53CF93;
+    }
+  
+  
+    .materia > img {
+      display: flex;
+      flex-direction: column;
+      margin-right: 0.4rem;
+     
+    }
+
+
