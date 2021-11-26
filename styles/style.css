@@ -94,14 +94,9 @@ li:last-of-type {
 
 @media screen and (max-width: 763px) {
     footer {
-        position: fixed;
+        position: relative;
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    h1 {
-        font-size: 1.5rem;
+        margin-top: 10rem;
     }
 }

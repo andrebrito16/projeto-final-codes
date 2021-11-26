@@ -21,9 +21,16 @@ main {
 }
 
 .icone_esquerda {
+    display: flex;
+    flex-direction: row;
     position: absolute;
     left: 2rem;
     filter: brightness(100);
+    align-items: center;
+}
+
+.icone_esquerda>a {
+    margin: 0.4rem;
 }
 
 .icone_da_sugestao {

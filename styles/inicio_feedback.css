@@ -13,16 +13,17 @@ header {
     color: #FFFFFF;
 }
 
-.icone_esquerda{
+.icone_esquerda {
     display: flex;
     flex-direction: row;
     position: absolute;
     left: 2rem;
     filter: brightness(100);
+    align-items: center;
 }
 
-.icone_esquerda > a {
-    margin-right: 0.4rem;
+.icone_esquerda>a {
+    margin: 0.4rem;
 }
 
 ul {
@@ -52,19 +53,23 @@ h2 {
 }
 
 p {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 a {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 header a {
     text-decoration: none;
+}
+
+.em_desenvolvimento {
+    opacity: 0.6;
 }

@@ -20,21 +20,27 @@ main {
     align-items: center;
 }
 
-.icone_esquerda{
+.icone_esquerda {
     display: flex;
     flex-direction: row;
     position: absolute;
     left: 2rem;
     filter: brightness(100);
-  }
+    align-items: center;
+}
 
-.nome_aluno {
+.icone_esquerda>a {
+    margin: 0.4rem;
+}
+
+.nome_evento {
     border: 1px solid #000;
     border-radius: 255px;
     padding: 1rem;
     margin: 1rem;
     background-color: #53CF93;
 }
+
 .atividade {
     border: 1px solid #000;
     border-radius: 255px;
@@ -42,6 +48,7 @@ main {
     margin: 1rem;
     background-color: #53CF93;
 }
+
 .turma {
     border: 1px solid #000;
     border-radius: 255px;
@@ -49,6 +56,7 @@ main {
     margin: 1rem;
     background-color: #53CF93;
 }
+
 .plataforma {
     border: 1px solid #000;
     border-radius: 255px;
@@ -56,6 +64,7 @@ main {
     margin: 1rem;
     background-color: #53CF93;
 }
+
 .marcar_atividade {
     border: 1px solid #000;
     border-radius: 255px;
@@ -64,6 +73,6 @@ main {
     background-color: #204F38;
 }
 
-.marcar_atividade > a {
+.marcar_atividade>a {
     color: #FFFFFF;
 }

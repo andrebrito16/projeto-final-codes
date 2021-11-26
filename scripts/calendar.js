@@ -107,15 +107,14 @@ function initCalender(monthData) {
     var classToAdd = "";
     var currentDay = "";
     var today = new Date();
-
+    localStorage.setItem('playAreaMonth', monthData[0].date.month);
+    localStorage.setItem('playAreaYear', monthData[0].date.year);
     clearCalender();
     $.each(monthData,
         function(i, value) {
             var weekday = value.date.weekday_short;
             var day = value.date.day;
             var column = 0;
-            var index = i + 1;
-
             $(".sideb .header .month").html(value.date.month);
             $(".sideb .header .year").html(value.date.year);
             if (value.date.current_day) {
@@ -155,8 +154,8 @@ $(".fa-angle-double-right").click(function() {
 });
 
 function dateClickHandler(elem) {
-
     var day1 = parseInt($(elem).html());
+    localStorage.setItem('playAreaDay', day1);
     if (clickCounter === 0) {
         $("td.selectable").each(function() {
             $(this).removeClass("active between hover");
@@ -171,32 +170,7 @@ function dateClickHandler(elem) {
         return;
     }
     $(elem).toggleClass("active");
-    $("td.selectable").hover(function() {
 
-        var day2 = parseInt($(this).html());
-        $(this).addClass("hover");
-        $("td.selectable").each(function() {
-            $(this).removeClass("between");
-
-        });
-        if (day1 > day2 + 1) {
-            $("td.selectable").each(function() {
-                var dayBetween = parseInt($(this).html());
-                if (dayBetween > day2 && dayBetween < day1) {
-                    $(this).addClass("between");
-                }
-            });
-        } else if (day1 < day2 + 1) {
-            $("td.selectable").each(function() {
-                var dayBetween = parseInt($(this).html());
-                if (dayBetween > day1 && dayBetween < day2) {
-                    $(this).addClass("between");
-                }
-            });
-        }
-    }, function() {
-        $(this).removeClass("hover");
-    });
 }
 $(".fa-angle-left").click(function() {
     getPrevMonth();

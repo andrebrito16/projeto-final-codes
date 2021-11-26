@@ -19,6 +19,11 @@ header {
     position: absolute;
     left: 2rem;
     filter: brightness(100);
+    align-items: center;
+}
+
+.icone_esquerda>a {
+    margin: 0.4rem;
 }
 
 nav {
@@ -47,4 +52,8 @@ nav {
     display: flex;
     flex-direction: column;
     margin-right: 0.4rem;
+}
+
+.em_desenvolvimento {
+    opacity: 0.6;
 }
