@@ -1,6 +1,6 @@
 function cleanup(mainClass) {
 
-    alert("Seu formulário foi enviado com sucesso");
+    alert("Sua sugestão foi enviada com sucesso");
 
     // Select all inputs of main
     console.log(mainClass)
