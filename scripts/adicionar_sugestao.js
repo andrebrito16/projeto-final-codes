@@ -1,6 +1,6 @@
 function cleanup(mainClass) {
 
-    alert("Sua sugestão foi enviada com sucesso");
+    alert("TESTE");
 
     // Select all inputs of main
     console.log(mainClass)
