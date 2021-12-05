@@ -12,7 +12,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/fonts.css">
-
 </head>
 
 <body>
@@ -31,19 +30,27 @@
         <h3>Adicionar Sugestão</h3>
         <div class="icone_da_sugestao">
             <p>Ícone da sugestão: </p>
-            <input type="url" placeholder="Insira o link do ícone"> <br>
+            <img src="" name="image-swap"> <br>
         </div>
         <div class="nome_da_sugestao">
             <p>Nome da sugestão: </p>
-            <input type="text" placeholder="Insira o nome da sugestão"> <br>
+            <input type="text" placeholder="Insira o nome da sugestão"><br>
         </div>
         <div class="tipo_da_atividade">
             <p>Tipo da atividade: </p>
-            <input type="text" placeholder="Insira o tipo atividade"> <br>
+            <select id="tipo_atividade" name="atividade" size="1",  onchange="setImage(this);">
+                <option value="./images/icons/film.png">Filme</option>
+                <option value="./images/icons/gamepad.png">Jogo Online</option>
+                <option value="./images/icons/tv.png">Série</option>
+                <option value="./images/icons/birthday-cake.png">Cozinhar</option>
+                <option value="./images/icons/ellipsis-h.png">Outro</option>
+            </select>
+            <p>Caso "Outro", descreva: </p>
+            <input type="text" placeholder="Descreva o tipo de atividade"><br>
         </div>
         <div class="enviar">
             <img src="./images/icons/send.png" alt="Icone send">
-            <a href="#">
+            <a href="sugestoes_alunos_segundo.html">
                 <p>Enviar</p>
             </a>
         </div>

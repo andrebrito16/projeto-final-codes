@@ -56,6 +56,18 @@ nav {
     background-color: #53CF93;
 }
 
+.sugestao_inserida {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 255px;
+    margin: 1rem;
+    background-color: #53CF93;
+}
+
 .icone_sugestao {
     margin-right: 0.5rem;
 }
